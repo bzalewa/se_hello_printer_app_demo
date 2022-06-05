@@ -22,3 +22,6 @@ jobs:
       # testy zaawansowane
       - name: Tests verbose # nazwa widoczna potem w historii w actions
         run: make testverbose
+      # uruchomienie linta
+      - name: Run lint
+        run: make lint
