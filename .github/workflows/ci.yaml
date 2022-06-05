@@ -19,3 +19,6 @@ jobs:
       # testy!!!!!
       - name: Tests
         run: make test
+      # testy zaawansowane
+      - name: Tests verbose # nazwa widoczna potem w historii w actions
+        run: make testverbose

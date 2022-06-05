@@ -10,5 +10,8 @@ run:
 test:
 	PYTHONPATH=. py.test
 
+testverbose:
+	PYTHONPATH=. py.test --verbose -s
+
 lint:
 	flake8 hello_world test
