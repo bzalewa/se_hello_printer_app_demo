@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-python@v3
       # instalacja wymaganych bibliotek
       - name: Install deps
-        run: make deps
+        run: make dep
       # testy!!!!!
       - name: Tests
         run: make test
