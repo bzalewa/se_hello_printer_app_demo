@@ -25,3 +25,6 @@ jobs:
       # uruchomienie linta
       - name: Run lint
         run: make lint
+        # budowanie obrazu dockera
+      - name: Docker build
+        run: make docker_build
